@@ -1,0 +1,610 @@
+[15:21:05:708] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on LAPTOP-I5SFR3U5 with PID 3876 (E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall\target\classes started by lmyfi in E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall)
+[15:21:05:723] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[15:21:07:262] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[15:21:07:294] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[15:21:07:294] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:21:07:294] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[15:21:07:419] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:21:07:419] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1648 ms
+[15:21:08:236] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[15:21:08:566] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[15:21:08:597] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[15:21:08:597] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.427 seconds (JVM running for 7.111)
+[15:21:15:462] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:21:15:462] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:21:15:462] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 0 ms
+[15:21:15:510] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/login
+[15:21:15:510] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:21:15:510] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:21:15:510] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.login
+[15:21:15:510] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [nihoa, 12345678, org.apache.catalina.session.StandardSessionFacade@7429294a]
+[15:23:08:492] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/login
+[15:23:08:492] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:23:08:492] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:23:08:492] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.login
+[15:23:08:492] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [nihoa, 12345678, org.apache.catalina.session.StandardSessionFacade@7429294a]
+[15:24:04:074] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/register
+[15:24:04:074] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:24:04:074] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:24:04:074] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.register
+[15:24:04:074] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [nihoa, 12345678]
+[15:24:04:106] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[15:24:04:257] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[15:24:04:357] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":null}
+[15:24:09:053] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/login
+[15:24:09:053] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:24:09:053] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:24:09:053] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.login
+[15:24:09:053] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [nihoa, 12345678, org.apache.catalina.session.StandardSessionFacade@7429294a]
+[15:28:01:572] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[15:28:01:572] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[15:28:01:582] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[15:28:13:011] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on LAPTOP-I5SFR3U5 with PID 14756 (E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall\target\classes started by lmyfi in E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall)
+[15:28:13:011] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[15:28:14:299] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[15:28:14:315] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[15:28:14:315] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:28:14:315] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[15:28:14:440] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:28:14:440] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1382 ms
+[15:28:15:099] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[15:28:15:413] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[15:28:15:444] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[15:28:15:460] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.887 seconds (JVM running for 5.22)
+[15:28:23:189] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:28:23:189] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:28:23:205] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 16 ms
+[15:28:23:236] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/login
+[15:28:23:236] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:28:23:236] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:28:23:236] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.login
+[15:28:23:236] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [nihoa, 12345678, org.apache.catalina.session.StandardSessionFacade@53389763]
+[15:28:34:996] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/login
+[15:28:34:996] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:28:34:996] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:28:34:996] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.login
+[15:28:34:996] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [nihoa, 12345678, org.apache.catalina.session.StandardSessionFacade@53389763]
+[15:31:29:814] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[15:31:36:788] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on LAPTOP-I5SFR3U5 with PID 17396 (E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall\target\classes started by lmyfi in E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall)
+[15:31:36:788] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[15:31:38:100] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[15:31:38:106] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[15:31:38:106] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:31:38:106] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[15:31:38:231] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:31:38:247] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1412 ms
+[15:31:38:891] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[15:31:39:197] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[15:31:39:221] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[15:31:39:221] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.82 seconds (JVM running for 5.013)
+[15:31:41:896] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:31:41:896] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:31:41:896] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 0 ms
+[15:31:41:943] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/login
+[15:31:41:943] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:31:41:943] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:31:41:943] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.login
+[15:31:41:943] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [nihoa, 12345678, org.apache.catalina.session.StandardSessionFacade@3ec74e05]
+[15:31:43:694] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/login
+[15:31:43:694] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:31:43:694] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:31:43:694] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.login
+[15:31:43:694] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [nihoa, 12345678, org.apache.catalina.session.StandardSessionFacade@3ec74e05]
+[15:36:38:375] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/register
+[15:36:38:378] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:36:38:378] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:36:38:378] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.register
+[15:36:38:378] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [nihoa, 12345678]
+[15:36:38:394] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[15:36:38:535] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[15:36:45:615] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/login
+[15:36:45:630] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:36:45:630] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:36:45:631] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.login
+[15:36:45:631] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [nihoa, 12345678, org.apache.catalina.session.StandardSessionFacade@3ec74e05]
+[15:45:03:004] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[15:45:03:004] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[15:45:03:020] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[15:45:08:768] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on LAPTOP-I5SFR3U5 with PID 5540 (E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall\target\classes started by lmyfi in E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall)
+[15:45:08:768] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[15:45:10:055] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[15:45:10:071] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[15:45:10:071] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:45:10:071] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[15:45:10:196] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:45:10:196] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1350 ms
+[15:45:10:826] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[15:45:11:124] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[15:45:11:139] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[15:45:11:155] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.733 seconds (JVM running for 4.913)
+[15:45:21:173] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:45:21:173] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:45:21:189] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 16 ms
+[15:45:21:220] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/login
+[15:45:21:220] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:45:21:220] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:45:21:220] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.login
+[15:45:21:220] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [nihoa, 12345678, org.apache.catalina.session.StandardSessionFacade@3ec74e05]
+[15:47:54:837] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[15:48:09:687] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on LAPTOP-I5SFR3U5 with PID 17328 (E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall\target\classes started by lmyfi in E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall)
+[15:48:09:734] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[15:48:10:943] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[15:48:10:943] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[15:48:10:943] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:48:10:958] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[15:48:11:068] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:48:11:068] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1287 ms
+[15:48:11:719] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[15:48:12:041] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[15:48:12:057] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[15:48:12:073] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.714 seconds (JVM running for 4.939)
+[15:48:14:722] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:48:14:722] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:48:14:736] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 14 ms
+[15:48:14:771] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/login
+[15:48:14:771] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:48:14:771] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:48:14:771] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.login
+[15:48:14:771] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [nihoa, 12345678, org.apache.catalina.session.StandardSessionFacade@78b3bad6]
+[15:48:44:274] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[15:48:50:470] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on LAPTOP-I5SFR3U5 with PID 8960 (E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall\target\classes started by lmyfi in E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall)
+[15:48:50:472] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[15:48:51:853] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[15:48:51:863] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[15:48:51:864] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:48:51:865] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[15:48:52:001] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:48:52:001] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1476 ms
+[15:48:52:706] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[15:48:53:053] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[15:48:53:079] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[15:48:53:083] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.112 seconds (JVM running for 5.367)
+[15:48:54:949] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:48:54:949] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:48:54:965] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 16 ms
+[15:48:55:011] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/login
+[15:48:55:011] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:48:55:011] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:48:55:016] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.login
+[15:48:55:016] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [nihoa, 12345678, org.apache.catalina.session.StandardSessionFacade@160a3605]
+[15:51:38:686] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[15:51:42:965] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on LAPTOP-I5SFR3U5 with PID 5108 (E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall\target\classes started by lmyfi in E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall)
+[15:51:42:965] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[15:51:44:225] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[15:51:44:239] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[15:51:44:239] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:51:44:239] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[15:51:44:365] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:51:44:365] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1305 ms
+[15:51:44:978] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[15:51:45:276] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[15:51:45:327] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[15:51:45:327] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.721 seconds (JVM running for 5.287)
+[15:51:51:406] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:51:51:406] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:51:51:422] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 16 ms
+[15:51:51:459] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/login
+[15:51:51:459] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:51:51:459] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:51:51:474] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.login
+[15:51:51:475] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [nihoa, 12345678, org.apache.catalina.session.StandardSessionFacade@3c4c3ed6]
+[15:53:55:000] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[15:54:00:865] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on LAPTOP-I5SFR3U5 with PID 4696 (E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall\target\classes started by lmyfi in E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall)
+[15:54:00:870] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[15:54:02:113] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[15:54:02:123] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[15:54:02:124] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:54:02:125] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[15:54:02:261] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:54:02:261] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1309 ms
+[15:54:02:915] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[15:54:03:236] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[15:54:03:259] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[15:54:03:262] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.744 seconds (JVM running for 4.959)
+[15:54:07:014] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:54:07:014] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:54:07:024] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 10 ms
+[15:54:07:067] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/login
+[15:54:07:067] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:54:07:067] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:54:07:069] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.login
+[15:54:07:070] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [nihoa, 12345678, org.apache.catalina.session.StandardSessionFacade@47d9b239]
+[15:54:08:843] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/login
+[15:54:08:844] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:54:08:844] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:54:08:844] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.login
+[15:54:08:844] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [nihoa, 12345678, org.apache.catalina.session.StandardSessionFacade@47d9b239]
+[15:55:27:665] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[15:55:33:746] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on LAPTOP-I5SFR3U5 with PID 8320 (E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall\target\classes started by lmyfi in E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall)
+[15:55:33:762] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[15:55:34:987] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[15:55:34:987] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[15:55:34:987] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:55:34:987] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[15:55:35:112] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:55:35:112] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1303 ms
+[15:55:35:773] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[15:55:36:087] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[15:55:36:118] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[15:55:36:118] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.744 seconds (JVM running for 4.947)
+[15:55:41:651] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:55:41:651] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:55:41:662] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 11 ms
+[15:55:41:693] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/login
+[15:55:41:693] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:55:41:709] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:55:41:709] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.login
+[15:55:41:709] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [nihoa, 12345678, org.apache.catalina.session.StandardSessionFacade@6fec302e]
+[15:55:41:751] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[15:55:41:882] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[15:55:41:976] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":20,"username":"nihoa","password":null,"personalizedSignature":"","role":1,"createTime":1697959444000,"updateTime":1697959444000}}
+[15:57:11:764] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/user/update
+[15:57:11:764] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:57:11:764] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:57:11:764] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.update
+[15:57:11:764] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [天气晴朗, org.apache.catalina.session.StandardSessionFacade@6fec302e]
+[15:57:11:797] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":null}
+[15:57:16:342] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/login
+[15:57:16:342] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:57:16:342] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:57:16:342] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.login
+[15:57:16:342] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [nihoa, 12345678, org.apache.catalina.session.StandardSessionFacade@6fec302e]
+[15:57:16:359] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":20,"username":"nihoa","password":null,"personalizedSignature":"天气晴朗","role":1,"createTime":1697959444000,"updateTime":1697961431000}}
+[15:58:41:865] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/user/logout
+[15:58:41:865] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:58:41:865] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:58:41:865] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.logout
+[15:58:41:865] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [org.apache.catalina.session.StandardSessionFacade@6fec302e]
+[15:58:41:865] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":null}
+[15:58:50:756] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/user/update
+[15:58:50:756] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[15:58:50:756] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[15:58:50:756] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.update
+[15:58:50:756] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [天气晴朗, org.apache.catalina.session.StandardSessionFacade@6fec302e]
+[16:03:29:599] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[16:03:29:600] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[16:03:29:606] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[16:06:37:537] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on LAPTOP-I5SFR3U5 with PID 152 (E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall\target\classes started by lmyfi in E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall)
+[16:06:37:573] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[16:06:38:862] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[16:06:38:872] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[16:06:38:873] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:06:38:874] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[16:06:38:998] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:06:38:998] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1376 ms
+[16:06:39:642] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[16:06:39:959] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[16:06:39:982] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[16:06:39:986] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.793 seconds (JVM running for 4.993)
+[16:06:44:637] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[16:06:44:638] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[16:06:44:648] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 10 ms
+[16:06:44:687] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/user/update
+[16:06:44:687] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[16:06:44:687] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[16:06:44:689] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.update
+[16:06:44:689] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [天气晴朗, org.apache.catalina.session.StandardSessionFacade@39c078b7]
+[16:07:30:134] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/register
+[16:07:30:134] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[16:07:30:134] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[16:07:30:134] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.register
+[16:07:30:134] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [mumu5, 12345678]
+[16:07:30:171] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[16:07:30:301] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[16:07:54:835] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/register
+[16:07:54:836] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[16:07:54:836] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[16:07:54:836] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.register
+[16:07:54:836] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [mumu5, 12345678]
+[16:07:54:875] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":null}
+[16:08:31:995] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/adminLogin
+[16:08:31:995] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[16:08:31:995] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[16:08:31:995] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.adminLogin
+[16:08:31:995] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [mumu5, 12345678, org.apache.catalina.session.StandardSessionFacade@39c078b7]
+[16:08:32:010] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":21,"username":"mumu5","password":null,"personalizedSignature":"","role":2,"createTime":1697962074000,"updateTime":1697962088000}}
+[16:55:43:902] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[16:55:43:902] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[16:55:43:902] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[17:22:30:307] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on LAPTOP-I5SFR3U5 with PID 16056 (E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall\target\classes started by lmyfi in E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall)
+[17:22:30:307] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[17:22:31:515] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[17:22:31:515] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[17:22:31:515] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[17:22:31:515] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[17:22:31:625] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[17:22:31:625] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1240 ms
+[17:22:32:174] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[17:22:32:457] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[17:22:32:473] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[17:22:32:473] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.477 seconds (JVM running for 4.651)
+[17:23:49:096] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:23:49:096] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[17:23:49:113] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 17 ms
+[17:23:49:129] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/user/logout
+[17:23:49:129] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:23:49:129] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:23:49:129] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.logout
+[17:23:49:129] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [org.apache.catalina.session.StandardSessionFacade@185455d7]
+[17:23:49:180] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":null}
+[17:24:06:434] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/adminLogin
+[17:24:06:434] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:24:06:434] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:24:06:434] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.adminLogin
+[17:24:06:434] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [mumu5, 12345678, org.apache.catalina.session.StandardSessionFacade@185455d7]
+[17:24:06:465] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[17:24:06:581] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[17:24:06:635] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":21,"username":"mumu5","password":null,"personalizedSignature":"","role":2,"createTime":1697962074000,"updateTime":1697962088000}}
+[17:24:54:415] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on LAPTOP-I5SFR3U5 with PID 15636 (E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall\target\classes started by lmyfi in E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall)
+[17:24:54:455] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[17:24:55:592] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[17:24:55:602] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[17:24:55:603] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[17:24:55:604] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[17:24:55:707] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[17:24:55:708] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1215 ms
+[17:24:56:273] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[17:24:56:567] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[17:24:56:585] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[17:24:56:585] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.467 seconds (JVM running for 4.356)
+[17:26:36:644] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:26:36:644] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[17:26:36:661] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 17 ms
+[17:26:36:761] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/admin/category/add
+[17:26:36:761] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:26:36:761] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:26:36:761] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.CategoryController.add
+[17:26:36:761] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [org.apache.catalina.session.StandardSessionFacade@5425dc95, com.imooc.mall.model.request.AddCategoryReq@2ebb5208]
+[17:26:36:777] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10010,"msg":"参数不能为空","data":null}
+[17:27:51:709] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/admin/category/add
+[17:27:51:709] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:27:51:709] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:27:51:709] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.CategoryController.add
+[17:27:51:709] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [org.apache.catalina.session.StandardSessionFacade@5425dc95, com.imooc.mall.model.request.AddCategoryReq@2b870a7f]
+[17:27:51:715] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10010,"msg":"参数不能为空","data":null}
+[17:28:24:429] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/admin/category/add
+[17:28:24:429] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:28:24:429] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:28:24:429] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.CategoryController.add
+[17:28:24:429] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [org.apache.catalina.session.StandardSessionFacade@5425dc95, com.imooc.mall.model.request.AddCategoryReq@43f17f3a]
+[17:28:24:429] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10010,"msg":"参数不能为空","data":null}
+[17:30:37:945] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on LAPTOP-I5SFR3U5 with PID 3832 (E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall\target\classes started by lmyfi in E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall)
+[17:30:37:961] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[17:30:39:201] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[17:30:39:216] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[17:30:39:216] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[17:30:39:216] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[17:30:39:326] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[17:30:39:338] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1298 ms
+[17:30:39:955] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[17:30:40:269] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[17:30:40:284] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[17:30:40:284] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.675 seconds (JVM running for 4.815)
+[17:31:10:894] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:31:10:894] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[17:31:10:894] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 0 ms
+[17:31:10:993] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/admin/category/add
+[17:31:10:993] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:31:10:993] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:31:10:993] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.CategoryController.add
+[17:31:10:993] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [org.apache.catalina.session.StandardSessionFacade@1ca467d2, com.imooc.mall.model.request.AddCategoryReq@78fe2e26]
+[17:32:51:528] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10010,"msg":"参数不能为空","data":null}
+[17:32:51:538] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[17:33:14:932] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on LAPTOP-I5SFR3U5 with PID 8408 (E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall\target\classes started by lmyfi in E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall)
+[17:33:14:932] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[17:33:16:205] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[17:33:16:205] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[17:33:16:221] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[17:33:16:221] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[17:33:16:331] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[17:33:16:331] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1320 ms
+[17:33:17:024] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[17:33:17:442] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[17:33:17:468] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[17:33:17:471] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.883 seconds (JVM running for 5.016)
+[17:33:20:653] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:33:20:653] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[17:33:20:669] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 16 ms
+[17:33:20:763] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/admin/category/add
+[17:33:20:763] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:33:20:763] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:33:20:763] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.CategoryController.add
+[17:33:20:763] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [org.apache.catalina.session.StandardSessionFacade@7ef1446d, com.imooc.mall.model.request.AddCategoryReq@5400421e]
+[17:33:37:661] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10007,"msg":"用户未登录","data":null}
+[17:34:31:077] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/adminLogin
+[17:34:31:077] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:34:31:077] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:34:31:077] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.adminLogin
+[17:34:31:077] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [mumu5, 12345678, org.apache.catalina.session.StandardSessionFacade@7ef1446d]
+[17:34:31:134] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[17:34:31:261] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[17:34:31:327] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":21,"username":"mumu5","password":null,"personalizedSignature":"","role":2,"createTime":1697962074000,"updateTime":1697962088000}}
+[17:34:36:057] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/admin/category/add
+[17:34:36:057] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:34:36:057] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:34:36:057] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.CategoryController.add
+[17:34:36:057] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [org.apache.catalina.session.StandardSessionFacade@7ef1446d, com.imooc.mall.model.request.AddCategoryReq@4fd94a0f]
+[17:38:55:217] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[17:38:55:217] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[17:38:55:232] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[17:39:00:637] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on LAPTOP-I5SFR3U5 with PID 16864 (E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall\target\classes started by lmyfi in E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall)
+[17:39:00:684] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[17:39:01:972] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[17:39:01:987] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[17:39:01:987] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[17:39:01:987] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[17:39:02:117] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[17:39:02:117] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1385 ms
+[17:39:05:890] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on LAPTOP-I5SFR3U5 with PID 3996 (E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall\target\classes started by lmyfi in E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall)
+[17:39:05:906] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[17:39:07:115] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[17:39:07:131] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[17:39:07:131] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[17:39:07:131] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[17:39:07:256] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[17:39:07:256] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1303 ms
+[17:39:07:884] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[17:39:08:198] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[17:39:08:230] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[17:39:08:230] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.707 seconds (JVM running for 5.166)
+[17:39:27:270] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:39:27:270] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[17:39:27:285] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 15 ms
+[17:39:27:395] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/admin/category/add
+[17:39:27:395] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:39:27:395] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:39:27:395] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.CategoryController.add
+[17:39:27:395] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [org.apache.catalina.session.StandardSessionFacade@7acc8418, com.imooc.mall.model.request.AddCategoryReq@22be7acc]
+[17:40:43:518] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10007,"msg":"用户未登录","data":null}
+[17:40:43:524] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[17:40:48:579] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on LAPTOP-I5SFR3U5 with PID 11624 (E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall\target\classes started by lmyfi in E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall)
+[17:40:48:614] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[17:40:49:881] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[17:40:49:897] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[17:40:49:897] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[17:40:49:897] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[17:40:50:006] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[17:40:50:006] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1360 ms
+[17:40:50:679] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[17:40:50:997] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[17:40:51:013] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[17:40:51:013] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.786 seconds (JVM running for 5.044)
+[17:40:56:511] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:40:56:526] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[17:40:56:526] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 0 ms
+[17:40:56:560] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/adminLogin
+[17:40:56:560] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:40:56:560] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:40:56:575] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.adminLogin
+[17:40:56:575] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [mumu5, 12345678, org.apache.catalina.session.StandardSessionFacade@55c06f43]
+[17:40:56:610] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[17:40:56:743] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[17:40:56:843] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":21,"username":"mumu5","password":null,"personalizedSignature":"","role":2,"createTime":1697962074000,"updateTime":1697962088000}}
+[17:41:17:710] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/admin/category/add
+[17:41:17:710] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:41:17:710] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:41:17:710] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.CategoryController.add
+[17:41:17:710] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [org.apache.catalina.session.StandardSessionFacade@55c06f43, com.imooc.mall.model.request.AddCategoryReq@1201eeb8]
+[17:42:12:168] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[17:42:12:168] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[17:42:12:185] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[17:42:31:483] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on LAPTOP-I5SFR3U5 with PID 3076 (E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall\target\classes started by lmyfi in E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall)
+[17:42:31:499] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[17:42:32:741] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[17:42:32:755] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[17:42:32:755] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[17:42:32:755] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[17:42:32:881] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[17:42:32:881] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1335 ms
+[17:42:33:542] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[17:42:33:855] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[17:42:33:871] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[17:42:33:871] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.775 seconds (JVM running for 5.036)
+[17:42:42:121] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:42:42:121] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[17:42:42:137] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 16 ms
+[17:42:42:169] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/adminLogin
+[17:42:42:169] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:42:42:169] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:42:42:169] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.adminLogin
+[17:42:42:169] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [mumu5, 12345678, org.apache.catalina.session.StandardSessionFacade@5687b102]
+[17:42:42:216] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[17:42:42:341] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[17:42:42:498] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":21,"username":"mumu5","password":null,"personalizedSignature":"","role":2,"createTime":1697962074000,"updateTime":1697962088000}}
+[17:42:46:076] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/admin/category/add
+[17:42:46:077] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:42:46:077] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:42:46:077] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.CategoryController.add
+[17:42:46:077] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [org.apache.catalina.session.StandardSessionFacade@5687b102, com.imooc.mall.model.request.AddCategoryReq@29a97ced]
+[17:44:43:042] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[17:44:43:044] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[17:44:43:056] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[17:49:30:479] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on LAPTOP-I5SFR3U5 with PID 12500 (E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall\target\classes started by lmyfi in E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall)
+[17:49:30:479] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[17:49:31:736] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[17:49:31:752] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[17:49:31:752] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[17:49:31:752] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[17:49:31:878] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[17:49:31:878] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1321 ms
+[17:49:32:506] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[17:49:32:814] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[17:49:32:820] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[17:49:32:836] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.7 seconds (JVM running for 4.663)
+[17:49:47:427] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:49:47:427] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[17:49:47:444] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 17 ms
+[17:49:47:477] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/adminLogin
+[17:49:47:477] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:49:47:477] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:49:47:477] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.adminLogin
+[17:49:47:477] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [mumu5, 12345678, org.apache.catalina.session.StandardSessionFacade@164d1a95]
+[17:49:47:527] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[17:49:47:660] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[17:49:47:783] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":21,"username":"mumu5","password":null,"personalizedSignature":"","role":2,"createTime":1697962074000,"updateTime":1697962088000}}
+[17:49:51:989] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/admin/category/add
+[17:49:51:989] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[17:49:51:989] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[17:49:51:989] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.CategoryController.add
+[17:49:51:989] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [org.apache.catalina.session.StandardSessionFacade@164d1a95, com.imooc.mall.model.request.AddCategoryReq@7827b37c]
+[17:49:52:039] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":null}
+[17:53:24:225] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[17:53:24:225] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[17:53:24:225] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[18:30:35:466] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on LAPTOP-I5SFR3U5 with PID 12156 (E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall\target\classes started by lmyfi in E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall)
+[18:30:35:516] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[18:30:36:746] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[18:30:36:761] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[18:30:36:761] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[18:30:36:761] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[18:30:36:887] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[18:30:36:887] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1318 ms
+[18:30:37:540] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[18:30:37:876] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[18:30:37:905] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[18:30:37:921] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.83 seconds (JVM running for 5.155)
+[18:30:49:585] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[18:30:49:585] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[18:30:49:585] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 0 ms
+[18:30:49:635] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/adminLogin
+[18:30:49:635] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[18:30:49:635] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[18:30:49:635] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.UserController.adminLogin
+[18:30:49:635] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [mumu5, 12345678, org.apache.catalina.session.StandardSessionFacade@6ae65cff]
+[18:30:49:668] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[18:30:49:803] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[18:30:49:935] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:53) - RESPONSE : {"status":10000,"msg":"SUCCESS","data":{"id":21,"username":"mumu5","password":null,"personalizedSignature":"","role":2,"createTime":1697962074000,"updateTime":1697962088000}}
+[18:31:34:711] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/admin/category/add
+[18:31:34:711] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[18:31:34:711] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[18:31:34:711] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.CategoryController.add
+[18:31:34:711] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [org.apache.catalina.session.StandardSessionFacade@6ae65cff, com.imooc.mall.model.request.AddCategoryReq@9608ef5]
+[18:31:42:319] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/admin/category/add
+[18:31:42:330] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[18:31:42:330] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[18:31:42:330] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.CategoryController.add
+[18:31:42:330] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [org.apache.catalina.session.StandardSessionFacade@6ae65cff, com.imooc.mall.model.request.AddCategoryReq@1700139c]
+[18:31:47:847] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - URL : http://127.0.0.1:8083/admin/category/add
+[18:31:47:847] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - HTTP_METHOD : POST
+[18:31:47:847] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - IP : 127.0.0.1
+[18:31:47:847] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - CLASS_METHOD : com.imooc.mall.controller.CategoryController.add
+[18:31:47:847] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - ARGS : [org.apache.catalina.session.StandardSessionFacade@6ae65cff, com.imooc.mall.model.request.AddCategoryReq@1083bfbb]
+[18:36:04:678] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[18:36:04:678] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[18:36:04:694] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[18:36:10:577] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on LAPTOP-I5SFR3U5 with PID 15432 (E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall\target\classes started by lmyfi in E:\study\Java\Spring\moocVersion\SpringBoot_Project\self-imooc-mall)
+[18:36:10:592] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[18:36:11:803] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[18:36:11:818] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[18:36:11:818] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[18:36:11:818] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[18:36:11:930] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[18:36:11:930] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1259 ms
+[18:36:12:557] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[18:36:12:839] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[18:36:12:871] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[18:36:12:871] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.63 seconds (JVM running for 4.81)
+[18:36:31:773] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[18:36:31:773] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[18:36:31:773] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 0 ms
+[18:44:07:749] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
